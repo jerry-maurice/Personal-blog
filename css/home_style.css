@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+/* grid setup */
+
+
+.grid-post{
+	display: grid;
+	grid-gap: 10px;
+	justify-content: center;
+	grid-template-columns: 250px;
+	grid-template-rows: 250px 250px;
+
+}
+
+
+/*body*/
+.welcome{
+	background-image:url("../images/Colmar,_Alsazia,_Francia.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.welcome{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+}
+.welcome h1{
+	border: 5px solid red;
+	padding: 20px;
+	background-color: black;
+	color: white;
+}
+
+.welcome-subtile h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 2em;
+}
+.welcome-subtile p{
+	text-align: center
+}
+
+.half-border{
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	border-bottom: 5px double black;
+}
+
+/*medium screen*/
+@media (min-width:600px) and (max-width:900px){
+	.grid-post{
+		display: grid;
+		grid-gap: 10px;
+		justify-content: center;
+		grid-template-columns: 250px 250px;
+		grid-template-rows: 250px 250px;
+
+	}
+}
+
+/*large screen*/
+@media (min-width:901px){
+	.grid-post{
+		display: grid;
+		grid-gap: 10px;
+		justify-content: center;
+		grid-template-columns: 250px 250px 250px;
+		grid-template-rows: 250px 250px;
+
+	}
+}

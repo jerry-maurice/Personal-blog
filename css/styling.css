@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* button */
+.default_first_button{
+	height: 30px;
+	width: 100px;
+	color: #940202;
+	font-weight: bold;
+}
+
+/*card */
+.card-primary{
+	border: 1px solid #940202;
+	box-shadow:1px 1px 5px black;
+}
+.card-primary:hover{
+	box-shadow: 0 8px 16px black ;
+}
+.card-header{
+	text-align: center;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	border-bottom: 1px solid black;
+}
+.card-body{
+	text-align: center;
+	padding: 10px;
+}
+.card-body>img{
+	height: 50px;
+	width: 100%;
+}
+
+/*input*/
+#subscribe{
+	min-width: 200px;
+	height: 30px;
+	border: none;
+	border-bottom: 2px solid #940202;
+    border-radius: 5px;  
+	background-color: black;
+	color: white;
+}

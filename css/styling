@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* button */
+.default_first_button{
+	height: 30px;
+	width: 100px;
+	color: #940202;
+	font-weight: bold;
+}
